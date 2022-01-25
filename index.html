@@ -8,25 +8,33 @@
     <link rel="stylesheet" href="resources/style.css">
 </head>
 <body>
-    <h1>Do you wanna' build a snowman?</h1>
-    <h2>Scroll down to start building!</h2>
-    <section class="toggle">
-        <label class="switch">
-            
-            <input type="checkbox">
-            
-            <span class="slider round"></span>
-          </label>
-    </section>
+    <div class="fixed-background">
+        <h1>Do you wanna' build a snowman?</h1>
+        <h2>Scroll down to start building!</h2>
+        <section class="toggle">
+            <label class="switch">
+                
+                <input type="checkbox">
+                
+                <span class="slider round"></span>
+            </label>
+        </section>
+        <section class="snow__balls">
+            <div class="snow__ball" id="top"></div>
+            <div class="snow__ball" id="middle"></div>
+            <div class="snow__ball" id="base"></div>
+        </section>
+        <section class="snow">
+        
+            <div class="snow__ground"></div>
+        </section>    
+    </div>
+        <section class="activators">
+            <div class="activator" id="activate-1"></div>
+            <div class="activator" id="activate-2"></div>
+            <div class="activator" id="activate-3"></div>
+        </section>
     
-        <div class="snow__ball" id="top"></div>
-        <div class="snow__ball" id="middle"></div>
-        <div class="snow__ball" id="base"></div>
-   
-    <section class="snow">
-       
-        <div class="snow__ground"></div>
-    </section>    
 </body>
 <script src="index.js"></script>
 </html>
